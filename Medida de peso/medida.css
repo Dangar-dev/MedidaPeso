@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia;
+}
+body{
+  
+    text-align: center;
+}
+
+
+h2 {
+    text-align: center;
+    margin-top: 2%;
+    font-weight: bold;
+    
+}
+div{
+    margin-top: 2%;
+    border: solid 10px rgb(112, 64, 19);
+    width: 28%;
+    padding-top: 5px;
+    border-radius: 10%;
+    margin-left: 38%;  
+    font-size: 25px;
+    background: repeating-linear-gradient(
+        to bottom, 
+        #000000, /* Cor das linhas do caderno */
+        #f1ebad 1px, /* Espaço entre as linhas */
+        #f1ebad 1px, /* Cor do fundo entre as linhas */
+        #f1ebad 60px /* Distância entre as linhas */
+    );
+}
+
+#ca1 ,#ca2, #res1 ,#res2{
+    height:45px;
+    width:300px;
+    border-radius:13px;
+    margin-top: 25px;
+    font-size: 15px;
+    text-align: center;
+}
+
+#res1:disabled , #res2:disabled{
+    background-color: white;
+    color: black;
+    font-weight:600;
+}
+
+#gen1 , #gen2{
+    margin-left: 10px;
+    
+}
+
+#but1 , #but2{
+    height:45px;
+    width:150px;
+    border-radius:13px;
+    font-size: 25px;
+    background-color: rgba(236, 236, 123, 1) ;
+    margin-bottom: 5px;
+}
+
+#te2{
+    margin-top: 100px;
+}
+
+#clip{
+   position: relative;
+   top:45px;
+   left:29px;
+}

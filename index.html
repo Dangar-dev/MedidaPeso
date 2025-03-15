@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Medida de peso/medida.css">
+    <title>Media-Peso</title>
+</head>
+<body> 
+    
+    <h2>DESCUBRA SEU PESO IDEAL</h2>
+    <img id="clip" src="./Medida de peso/images__2_-removebg-preview.png">
+    <div>
+        Informe seu peso <input type="text" id="ca1"><br><br>
+        Informe sua altura <input type="text" id="ca2"><br><br>
+        Informe seu Sexo 
+        <input type="radio" id="gen1" name="ge" value="F" checked>F
+        <input type="radio" id="gen2" name="ge" value="M">M
+        <br></br> 
+        O ideal para seu peso é: <input type="text" disabled id="res1"> <br><br>
+        Recomendação:<input type="text" id="res2" disabled><br><br>
+        <input type="button" value="Calcular" id="but2" onclick="Calcular()"> 
+        <input type="reset" value="Limpar" id="but2" onclick="Limpar()"/>
+    </div>
+ 
+    <script src="./Medida de peso/peso.js"></script>
+</body>
+</html>
