@@ -71,3 +71,35 @@ div{
    top:45px;
    left:29px;
 }
+
+/* Responsividade */
+@media screen and (max-width: 600px) {
+    div {
+        width: 90%;
+        font-size: 18px;
+        border-width: 5px;
+        border-radius: 5%;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-left: 20%;
+    }
+
+    #ca1, #ca2, #res1, #res2 {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    #but1, #but2 {
+        font-size: 18px;
+        height: 40px;
+    }
+
+    #clip {
+        width: 45%;
+        max-width: 250px;
+        top: 20px;
+        left:35%;
+    }
+}
